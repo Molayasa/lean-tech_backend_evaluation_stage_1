@@ -31,7 +31,7 @@ namespace RemoveSpecialChars
 
         string stringWithoutSpecialChars = sb.ToString();
 
-        return stringWithoutSpecialChars.Length > 0 ? stringWithoutSpecialChars : "NA";
+        return stringWithoutSpecialChars != String.Empty ? stringWithoutSpecialChars : "NA";
       }
     }
   }
